@@ -83,6 +83,7 @@ public class Helper {
 	            lineList.add(lineMap);
 	        }
 	        
+	       scnr.close(); 
 	       String sheetName = inputFile.getName().split("\\.")[0]; 
 	       FalloutApplication.logger.info("sheetName :" + sheetName);
 	       finalMap.put(sheetName, lineList); 
